@@ -15,51 +15,53 @@
 </head>
 <body>
 	<!--header -->
-	<header>
-      <nav class="navbar navbar-default" id="page-top">
+    <section class="hero-image">
+      <div class="bg-dark">
+        <header>
+          <nav class="navbar navbar-default" id="page-top">
+            <div class="container">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">
+                  Ana Carhuaz
+                </a>
+              </div>
+              <!--menu desplegable -->
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                  <li>
+                    <a class="active" href="index.html">Inicio</a>
+                  </li>
+                  <li>
+                    <a href="#about-me">Sobre mi</a>
+                  </li>
+                  <li>
+                    <a href="#portfolio">Portfolio</a>
+                  </li>
+                  <li>
+                    <a href="#contact-me">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </header>
         <div class="container">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="index.html">
-              Ana Carhuaz
-            </a>
+          <div class="row frase">
+            
           </div>
-          <!--menu desplegable -->
-          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
-              <li>
-                <a class="active" href="index.html">Inicio</a>
-              </li>
-              <li>
-                <a href="#about-me">Sobre mi</a>
-              </li>
-              <li>
-                <a href="#portfolio">Portfolio</a>
-              </li>
-              <li>
-                <a href="#contact-me">Contact</a>
-              </li>
-            </ul>
+          <div class="row text-center">
+          <a href="#about-me">
+            <img src="img/icono-flecha-white.png" alt="flecha">
+          </a>          
           </div>
         </div>
-      </nav>
-    </header>
-    <section class="hero-image">
-    	<div class="container">
-    		<div class="row frase">
-    			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus reiciendis sequi, cum ipsam earum sunt explicabo odit quibusdam incidunt minus autem, reprehenderit nihil tenetur pariatur fuga officia ullam veniam delectus.
-    		</div>
-    		<div class="row text-center">
-    		<a href="#about-me">
-    			<img src="img/icono-flecha-white.png" alt="flecha">
-    		</a>    			
-    		</div>
-    	</div>
+      </div>
     </section>
     <section class="about-me" id="about-me">
     	<div class="container">
@@ -67,12 +69,12 @@
     			<h2>Sobre me</h2>
     		</div>
     		<div class="row">
-    			<div class="col-xs-12 col-sm-4">
+    			<div class="col-xs-12 col-sm-4 text-center">
     				<img src="img/foto.jpg" alt="mi avatar">
     			</div>
     			<div class="col-xs-12 col-sm-8 text-center">
-    				<h3 >Ana Lucia Carhuaz Meneses</h3>
-    				<p></p>
+    				<h3>Ana Lucia Carhuaz Meneses</h3>
+    				<p class="description">Soy alumna de Laboratoria Perú e Ingeniera de Sistemas tengo 22 años, me encanta el mundo de la tecnología, me encanta programar, me encanta descubrir nuevos retos cada día.</p>
     			</div>
     		</div>
     	</div>
@@ -80,9 +82,9 @@
     <section class="portfolio" id="portfolio">
     	<div class="container">
     		<div class="row text-center">
-    			<h2>Mi Portafolio</h2>
+    			<h2>Bienvenidos a Mi Portafolio</h2>
     		</div>
-    		<div class="row">
+    		<div class="row text-center">
     			<div class="col-xs-12 col-sm-4">
     				<a href="http://alucia.github.io/freelancer/">
     					<img src="img/freelancer.png" alt="freelancer">
@@ -106,7 +108,6 @@
     		<div class="row text-center">
     			<h2>Contact</h2>
     		</div>
-    		
     	</div>
     </section>
 		<footer class="text-center">

@@ -5,16 +5,38 @@ body,html{
 	font-family: 'Merienda One', cursive;
 }
 /*header*/
+header{
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	z-index: 10000;
+}
 .navbar{
 	margin-bottom: 0px;
 	border-radius: 0px;
 }
+.navbar-toggle:focus,
+.navbar-toggle:hover,
+.navbar-default{
+	background-color: #FF7D5D !important;
+}
+.active{
+	color: #ccc!important;
+}
+/*hero*/
 .hero-image{
 	width: 100%;
-	height: 90%;
-	background: url("../img/hero-image.jpg") center;
+	height:100%;
+	background: url("../img/hero.jpg") center;
 	background-size: 100% 100%;
 	color: #fff;
+}
+.bg-dark{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.4);
+	position: absolute;
 }
 .frase{
 	padding: 22% 10%;
@@ -26,16 +48,26 @@ body,html{
 }
 .about-me{
 	padding: 5% 0%;
+	font-family: 'Roboto', sans-serif;
+}
+.about-me img{
+	border-radius: 100%;
 }
 .about-me h3{
 	font-family: 'Merienda One', cursive !important;
+	padding-bottom: 5%;
+}
+.about-me .description{
+	padding: 0% 10%;
+	text-align: justify;
 }
 .portfolio{
 	font-family: 'Roboto', sans-serif;
 }
 .portfolio img{
-	width: 100%;
+	width: 90%;
 	height: 300px;
+	padding: 5% 0%;
 }
 /*.portfolio h2{
 	font-weight: 700;
