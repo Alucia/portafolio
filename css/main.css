@@ -4,6 +4,13 @@ body,html{
 	height: 100%;
 	font-family: 'Merienda One', cursive;
 }
+a{
+	text-decoration: none;
+}
+a:active,
+a:hover,a:focus{
+	text-decoration: none;
+}
 /*header*/
 header{
 	position: fixed;
@@ -39,7 +46,19 @@ header{
 	position: absolute;
 }
 .frase{
-	padding: 22% 10%;
+	padding: 45% 10%;
+}
+.frase a{
+	padding: 2% 20px;
+	background-color: #FF7D5D;
+	color: #fff;
+	border: 2px solid #fff;
+}
+.frase a:hover{
+	background-color: #fff;
+	color: #FF7D5D;
+	border: 2px solid #FF7D5D;
+	transition: 0.5s;
 }
 .hero-image img{
 	position: absolute;
@@ -55,7 +74,6 @@ header{
 }
 .about-me h3{
 	font-family: 'Merienda One', cursive !important;
-	padding-bottom: 5%;
 }
 .about-me .description{
 	padding: 0% 10%;
