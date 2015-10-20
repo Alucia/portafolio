@@ -14,6 +14,7 @@ a:hover,a:focus{
 }
 /*header*/
 header{
+	width: 100%;
 	position: fixed;
 	left: 0;
 	right: 0;
@@ -42,7 +43,6 @@ header a{
 /*hero*/
 .hero{
 	width: 100%;
-	height: 100%;
 }
 .hero .row{
 	margin: 0px;
@@ -50,7 +50,6 @@ header a{
 .hero .col-sm-6,
 .hero .col-xs-12{
 	padding: 0px;
-	/*height: 100%;*/
 }
 .hero .media-heading{
 	font-family: 'Montserrat', sans-serif;
@@ -65,7 +64,7 @@ header a{
 	position: absolute;
 }
 .phase{
-	padding: 30% 0% 5% 5%;
+	padding: 50% 0% 5% 5%;
 	height: 400px;
 	background-color: #ED6866;
 }
@@ -76,8 +75,12 @@ header a{
 }
 .about-me{
 	padding: 5% 0%;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	background-color: #EDEDED;
+}
+.about-me h2,
+.skill h2{
+	font-family: 'Handlee', cursive;
 }
 .about-me img{
 	border-radius: 100%;
@@ -99,7 +102,11 @@ header a{
 	padding: 0% 10%;
 	text-align: justify;
 }
+.skill{
+	padding-top: 5%;
+}
 .portfolio{
+	padding: 5% 0%;
 	font-family: 'Roboto', sans-serif;
 }
 .portfolio img{
@@ -107,9 +114,9 @@ header a{
 	height: 300px;
 	padding: 5% 0%;
 }
-/*.portfolio h2{
-	font-weight: 700;
-}*/
+.contact{
+	padding-bottom: 5%;
+}
 input, textarea {
 	width:100%;
 	height:48px;
@@ -122,7 +129,6 @@ input, textarea {
 textarea {
 	height:126px;	
 }
-
 #submit{
 	color: white;
 	width:100%;
@@ -153,9 +159,13 @@ textarea {
     background-repeat: no-repeat;
 }
 #mensaje{
-	    background-image: url(http://rexkirby.com/kirbyandson/images/comment.svg);
-	    padding: 5px 5px 5px 25px;
-	    background-size: 34px 17px;
-        background-position: -5px 6px;
-        background-repeat: no-repeat;
+	background-image: url(http://rexkirby.com/kirbyandson/images/comment.svg);
+	padding: 5px 5px 5px 25px;
+	background-size: 34px 17px;
+	background-position: -5px 6px;
+	background-repeat: no-repeat;
+}
+footer{
+	padding: 1% 0%;
+	background-color: #EDEDED;
 }
