@@ -3,6 +3,7 @@ body,html{
 	width: 100%;
 	height: 100%;
 	font-family: 'Merienda One', cursive;
+	color: #524A53;
 }
 a{
 	text-decoration: none;
@@ -12,32 +13,46 @@ a:hover,a:focus{
 	text-decoration: none;
 }
 /*header*/
-header{
+/*header{
 	position: fixed;
 	left: 0;
 	right: 0;
 	top: 0;
 	z-index: 10000;
-}
+}*/
 .navbar{
 	margin-bottom: 0px;
 	border-radius: 0px;
 }
+.navbar-default{
+	border: none;
+}
 .navbar-toggle:focus,
 .navbar-toggle:hover,
 .navbar-default{
-	background-color: #FF7D5D !important;
+	background-color: #fff !important;
 }
 .active{
 	color: #ccc!important;
 }
 /*hero*/
-.hero-image{
+/*.hero-image{
 	width: 100%;
 	height:100%;
 	background: url("../img/hero.jpg") center;
 	background-size: 100% 100%;
 	color: #fff;
+}*/
+.hero{
+	width: 100%;
+	height: 100%;
+}
+.hero .row{
+	margin: 0px;
+}
+.hero .col-sm-6,
+.hero .col-xs-12{
+	padding: 0px;
 }
 .bg-dark{
 	width: 100%;
@@ -45,25 +60,14 @@ header{
 	background-color: rgba(0,0,0,0.4);
 	position: absolute;
 }
-.frase{
-	padding: 45% 10%;
+.phase{
+	height: 400px;
+	background-color: #ED6866;
 }
-.frase a{
-	padding: 2% 20px;
-	background-color: #FF7D5D;
-	color: #fff;
-	border: 2px solid #fff;
-}
-.frase a:hover{
-	background-color: #fff;
-	color: #FF7D5D;
-	border: 2px solid #FF7D5D;
-	transition: 0.5s;
-}
-.hero-image img{
-	position: absolute;
-	left: 48%;
-	bottom: 10px;
+.slider{
+	height: 400px;
+	background: url("../img/bg1.jpg") no-repeat;
+	background-size: 100% 150%;
 }
 .about-me{
 	padding: 5% 0%;
