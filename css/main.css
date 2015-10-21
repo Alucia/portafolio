@@ -64,7 +64,7 @@ header a{
 	position: absolute;
 }
 .phase{
-	padding: 50% 0% 5% 5%;
+	padding: 200px 0% 5% 5%;
 	height: 400px;
 	background-color: #ED6866;
 }
@@ -101,6 +101,12 @@ header a{
 .about-me .description{
 	padding: 0% 10%;
 	text-align: justify;
+}
+.about-me .btn{
+	padding: 1% 3%;
+	background-color: #EF7674;
+	color: #fff;
+	display: inline-block;
 }
 .skill{
 	padding-top: 5%;
@@ -139,7 +145,8 @@ textarea {
 	background-color: #EF7674;
 	border-radius: 2px;
 }
-#submit:hover{
+#submit:hover,
+.about-me .btn:hover{
 	background-color: #fff;
 	color: #EF7674;
 	border: 2px solid #EF7674;
