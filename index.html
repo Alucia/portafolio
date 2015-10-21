@@ -10,6 +10,7 @@
   	<link href="css/bootstrap.min.css" rel="stylesheet">
   	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   	<link href="css/main.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
   	<link href='https://fonts.googleapis.com/css?family=Merienda+One' rel='stylesheet' type='text/css'>
   	<link href='https://fonts.googleapis.com/css?family=Handlee' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
@@ -18,55 +19,55 @@
   </head>
   <body>
   	<!--header -->
-    <header>
-      <nav class="navbar navbar-default" id="page-top">
+    <section class="hero-image">
+      <div class="bg-dark">
+        <header>
+          <nav class="navbar navbar-default" id="page-top">
+            <div class="container">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">
+                  Ana Carhuaz
+                </a>
+              </div>
+              <!--menu desplegable -->
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                  <li>
+                    <a class="active" href="index.html">Inicio</a>
+                  </li>
+                  <li>
+                    <a href="#about-me">Sobre mi</a>
+                  </li>
+                  <li>
+                    <a href="#portfolio">Portfolio</a>
+                  </li>
+                  <li>
+                    <a href="#contact-me">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </header>
         <div class="container">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="index.html">
-              Ana Carhuaz
-            </a>
+          <div class="row phase text-center">
+            <h1>Ana Lucia  Carhuaz</h1>
+            <a href="#portfolio"> Ver Portafolio</a>
           </div>
-          <!--menu desplegable -->
-          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
-              <li>
-                <a class="active" href="index.html">Inicio</a>
-              </li>
-              <li>
-                <a href="#about-me">Sobre mi</a>
-              </li>
-              <li>
-                <a href="#portfolio">Portafolio</a>
-              </li>
-              <li>
-                <a href="#contact-me">Contacto</a>
-              </li>
-            </ul>
+          <div class="row text-center">
+          <a href="#about-me">
+            <i class="fa fa-angle-down shake"></i>
+          </a>          
           </div>
         </div>
-      </nav>
-    </header>
-    <div class="hero">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-xs-12 col-sm-6">
-            <div class="slider"></div>
-          </div>
-          <div class="col-xs-12 col-sm-6">
-            <div class="phase">
-              <h1 class="media-heading">Ana Lucia Carhuaz</h1>
-              <p>Desarrolladora Web</p>
-            </div>
-          </div>
-        </div>        
       </div>
-    </div>   
+    </section>   
     <section class="about-me" id="about-me">
       <div class="container">
         <div class="row text-center">
@@ -84,35 +85,28 @@
         </div>
       </div>
     </section> 
-    <section class="more-me">
-      <div class="container">
-        <div class="row text-center">
-        <h2>Mas sobre mi</h2>
-        <div class="col-xs-12 col-sm-4">
-          <i class="ff-font-awesome icon-heart"></i>
-        </div>  
-        <div class="col-xs-12 col-sm-4">
-          <i class="ff-font-awesome icon-heart"></i>
-        </div>
-        <div class="col-xs-12 col-sm-4">
-          <i class="ff-font-awesome icon-heart"></i>
-        </div> 
-        </div> </div> 
-    </section>
     <section class="skill">
       <div class="container">
         <div class="row text-center">
           <h2>Mis  habilidades</h2>
           <div class="col-xs-12 col-sm-3">
             <div class="icon text-center">
-              <img src="img/html.svg" alt="Html y css">
-              <h3>HTML y CSS</h3>
+              <img src="img/bootstrap.svg">
+              <h3>HTML</h3>
             </div>
           </div>
           <div class="col-xs-12 col-sm-3">
             <img src="img/bootstrap.svg">
+            <h3>Css</h3>
           </div>
-          <div class="col-xs-12 col-sm-3"></div>
+          <div class="col-xs-12 col-sm-3">
+            <img src="img/bootstrap.svg">
+            <h3>JavaScript</h3>
+          </div>
+          <div class="col-xs-12 col-sm-3">
+            <img src="img/bootstrap.svg">
+            <h3>Bootstrap</h3>
+          </div>
         </div>
       </div>
     </section> 
