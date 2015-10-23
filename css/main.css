@@ -23,35 +23,25 @@ header{
 	font-weight: 700;
 }
 header a{
-	font-size: 16px;
+	font-size: 18px;
 }
 .navbar{
 	margin-bottom: 0px;
 	border-radius: 0px;
 }
-.navbar-default{
-	border: none;
-}
-.navbar-default a{
-	color: #fff;
-}
+.navbar-default li a,
 .navbar-default .navbar-brand{
-	color: #fff;
-}
-.navbar-nav a{
 	color: #fff !important;
-}
-.nav a:hover{
-	color: #EF7674;
-}
-.navbar-toggle:focus,
-.navbar-toggle:hover,
-.navbar-default{
-	background-color:  transparent !important;
-	color: #fff ;
 }
 .active {
 	color: #ccc!important;
+}
+.navbar-default li a :hover{
+	color: 	#FF7D5D;
+}
+.navbar-default{
+	background-color: rgba(255,0,0,0.3) !important;
+	border: none;
 }
 /*hero*/
 .hero-image{
@@ -63,7 +53,7 @@ header a{
 }
 .hero h1{
 	font-family: 'Montserrat', sans-serif;
-	font-size: 42px;
+	font-size: 44px;
 	color: #fff;
 	font-weight: 600;
 }
@@ -108,23 +98,12 @@ header a{
 .about-me h2,
 .skill h2{
 	font-family: 'Montserrat', sans-serif;
-	/*font-family: 'Handlee', cursive;*/
 }
 .about-me img{
 	border-radius: 100%;
 }
 .about-me h3{
-	font-family: 'Merienda One', cursive !important;
-}
-.about-me .linea{
-	border: 1px solid #ccc;
-	display: inline-block;
-	width: 15%;
-	margin-bottom: 6px;
-}
-.about-me i{
-	font-size: 2em;
-	color: #bababa;
+	font-family: 'Handlee', cursive;
 }
 .about-me .description{
 	padding: 0% 10%;
@@ -207,3 +186,5 @@ footer{
 	padding: 1% 0%;
 	background-color: #EDEDED;
 }
+
+/*css utilities*/
