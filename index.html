@@ -18,42 +18,39 @@
   </head>
   <body>
   	<!--header -->
+    <header>
+      <nav class="navbar navbar-fixed-top">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand text-white f-600" href="#"><i class="fa fa-star-half-o"></i>Ana Lucia</a>
+          </div>
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+              <li class="active">
+                <a href="#home">Inicio</a>
+              </li>
+              <li>
+                <a href="#about">Sobre mi</a>
+              </li>
+              <li>
+                <a href="#portafolio">Portafolio</a>
+              </li>
+              <li>
+                <a href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
     <section class="hero-image">
       <div class="bg-dark">
-        <header>
-          <nav class="navbar navbar-default" id="page-top">
-            <div class="container">
-              <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                  <span class="sr-only">Toggle navigation</span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="index.html">
-                  Ana Carhuaz
-                </a>
-              </div>
-              <!--menu desplegable -->
-              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                  <li>
-                    <a class="active" href="index.html">Inicio</a>
-                  </li>
-                  <li>
-                    <a href="#about-me">Sobre mi</a>
-                  </li>
-                  <li>
-                    <a href="#portfolio">Portfolio</a>
-                  </li>
-                  <li>
-                    <a href="#contact-me">Contact</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-        </header>
         <div class="container">
           <div class="row phase text-center">
             <h1>Ana Lucia  Carhuaz</h1>
@@ -67,13 +64,13 @@
         </div>
       </div>
     </section>   
-    <section class="about-me" id="about-me">
+    <section id="about" class="about-me">
       <div class="container">
         <div class="row text-center">
           <h2>Sobre mi</h2>
         </div>
         <div class="row">
-          <div class="col-xs-12 col-sm-4 text-center">
+          <div class="col-xs-12 col-sm-4">
             <img src="img/foto.jpg" alt="mi avatar">
           </div>
           <div class="col-xs-12 col-sm-8 text-center">
@@ -109,7 +106,7 @@
         </div>
       </div>
     </section> 
-    <section class="portfolio" id="portfolio">
+    <section id="portafolio" class="portfolio">
       <div class="container">
         <div class="row text-center">
           <h2>Bienvenidos a Mi Portafolio</h2>
@@ -121,8 +118,8 @@
             </a>
           </div>
           <div class="col-xs-12 col-sm-4">
-            <a href="http://alucia.github.io/freelancer/">
-              <img src="img/theme.png" alt="freelancer" target="blank">
+            <a href="http://alucia.github.io/flat-theme2/index.html">
+              <img src="img/theme.png" alt="flat/-theme" target="blank">
             </a>
           </div>
           <div class="col-xs-12 col-sm-4">
@@ -132,9 +129,6 @@
           </div>
         </div>
       </div>
-    </section>
-    <section class="social">
-      
     </section>
     <section class="contact" id="contact-me">
       <div class="container">
@@ -161,5 +155,12 @@
     <script src="js/jquery.js"></script>
   	<script src="js/bootstrap.min.js"></script>
   	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+    <script type="text/javascript">
+      // Highlight the top nav as scrolling occurs
+      $('body').scrollspy({
+        target: '.navbar-fixed-top'
+      })
+    </script>
   </body>
 </html>
